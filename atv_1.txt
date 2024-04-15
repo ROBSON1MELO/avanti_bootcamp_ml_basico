@@ -1,0 +1,26 @@
+1. Explique, com suas palavras, o que é machine learning?
+
+É uma área da inteligência artificial que reconhece padrões através de dados e algoritmos para imitar o aprendizado humano.
+
+2. Explique o conceito de conjunto de treinamento, conjunto de validação e
+conjunto de teste em machine learning.
+
+-Conjunto de Treinamento: usado para treinar o modelo, ou seja, para que ele aprenda padrões nos dados e deve conter uma variedade de exemplos representativos do problema a ser resolvido.
+-Conjunto de Validação: usado para ajustar os hiperparâmetros do modelo e avaliar seu desempenho durante o treinamento. Deve ser separado do conjunto de treinamento, mas ainda representativo do problema. Ajuda a melhorar a capacidade de generalização do modelo para novos dados
+-Conjunto de Teste: Usado para avaliar o desempenho final do modelo em dados não vistos durante o treinamento. Fornece uma avaliação imparcial do quão bem o modelo generaliza para novos dados. Permite verificar se o modelo está pronto para ser usado em situações reais, sem superestimar seu desempenho.
+
+3. Explique como você lidaria com dados ausentes em um conjunto de dados
+de treinamento.
+
+Dentre as possibilidades e dependendo do cenário, optaria em remover as linhas que contém os dados ausentes, caso não sejam significativos para o problema em questão ou preencheria com valores (média, mediana ou moda para quantitativos e moda para qualitativos).
+
+4. O que é uma matriz de confusão e como ela é usada para avaliar o
+desempenho de um modelo preditivo?
+
+É uma tabela que permite a visualização do desempenho de um algoritmo de classificação exibindo as frequências desta classificação para cada classe do modelo: Verdadeiro positivo, Falso positivo, Falso verdadeiro e Falso negativo.
+
+5. Em quais áreas (tais como construção civil, agricultura, saúde, manufatura,
+entre outras) você acha mais interessante aplicar algoritmos de machine
+learning?
+
+Creio que na agricultura, saúde e segurança. O contato com os serviços e/ou produtos das áreas citadas é, praticamente, diário, ou seja, aplicando ML nestas áreas, teremos mais assertividade e redução de custo ao atribuir tarefas não só repetitivas como as relativamente cruciais e rotineiras.
